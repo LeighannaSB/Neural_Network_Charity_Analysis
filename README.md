@@ -8,12 +8,12 @@ The purpose of this analysis was to assist a company with deciding which organiz
 
 ## Results: Using bulleted lists and images to support your answers, address the following questions.
 
-- ** Data Preprocessing **
+- **Data Preprocessing**
   - The target variable for the model is whether the organization was successfully funded
   - The feature variable for the model is the "IS_SUCCESSFUL" column
   - The "EIN" and "NAME" columns were immediately removed from the dataset as they provide no data that will help         increase the accuracy of the model
 
-- ** Compiling, Training, and Evaluating the Model **
+- **Compiling, Training, and Evaluating the Model**
     - When attempting to optimize the the model four hidden layers were added with varying  amounts of neurons per          layer. Each layer used either relu or sigmoid activation after some trial and error, tanh was tested but yielded        lower accuracy overall. 
         - Hidden layer 1: 90 neurons (relu activation)
         - Hidden layer 2: 70 neurons (relu activation)
